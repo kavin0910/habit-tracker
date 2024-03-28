@@ -18,13 +18,13 @@ const create = () => {
   const colors = [
     "#FF5733", // Red
     "#FFD700", // Gold
-    "#5D76A9",
+    "#5D76A9", 
     "#1877F2", // Medium Purple
     "#32CD32", // Lime Green
     "#CCCCFF", // Tomato
     "#4169E1", // Royal Blue
   ];
-  const days = ["M", "T", "W", "T", "F", "S", "S"];
+  const days = ["Mon", "Tue", "Wed", "Thr", "Fri", "Sat", "Sun"];
   async function addHabit() {
     try {
       const habitDetails = {
@@ -64,7 +64,7 @@ const create = () => {
           marginTop: 15,
           padding: 15,
           borderRadius: 10,
-          backgroundColor: "#E1EBEE",
+          backgroundColor: "#aace93",
         }}
         placeholder="Title"
       />

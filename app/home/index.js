@@ -276,7 +276,7 @@ const index = () => {
                   >
                     {habit.title}
                   </Text>
-                  <Text style={{ color: "white" }}>{habit.repeatMode}</Text>
+                  <Text style={{ color: "white" }}>{habit.repeatMode}</Text>   
                 </View>
 
                 <View

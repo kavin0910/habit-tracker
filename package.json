@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
-    "start": "expo start",
+    "start": "expo-cli start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/core": "^6.4.13",
     "@react-navigation/native": "^6.1.9",
     "axios": "^1.6.3",
     "expo": "~49.0.15",
